@@ -28,8 +28,8 @@ apt upgrade -y
 ### 2. Clone the Repository
 
 ```bash
-git clone https://github.com/YourUsername/whatsapp-gemini-bot
-cd whatsapp-gemini-bot
+git clone https://github.com/HackersNexus/Whatsapp_auto_bot
+cd Whatsapp_auto_bot
 ```
 
 ### 3. Install Dependencies
