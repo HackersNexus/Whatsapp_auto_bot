@@ -5,7 +5,7 @@ const pino = require("pino");
 
 const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
 
-const GEMINI_API_KEY = "AIzaSyAq54cjrw2PfO5JCiXjBjUTbUF_ka6VuxU";
+const GEMINI_API_KEY = "past_the_key_here";
 const GEMINI_ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_API_KEY}`;
 
 async function askGemini(prompt) {
